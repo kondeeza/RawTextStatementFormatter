@@ -1,0 +1,10 @@
+<<<<FOR text copied from pdf itself. Make sure the "." match new line is enabled  >>>> 
+^(.*?)  ([0-9,]*?\.[0-9][0-9])  ([0-9,]*?\.[0-9][0-9])
+
+
+<<<<FOR text copied from pdf itself. grab the 2 lines single entry, but has issue for consecutive 1 line single entries  >>>> 
+^(.*?)[\r\n]+^(.*?)  ([0-9,]*?\.[0-9][0-9])  ([0-9,]*?\.[0-9][0-9])
+
+
+<<<<FOR text copied from pdf itself. grab  >>>> 
+^(.*?)([0-9,]*?\.[0-9][0-9]) [\r\n]+^(.*?)  ([0-9,]*?\.[0-9][0-9])  ([0-9,]*?\.[0-9][0-9])
